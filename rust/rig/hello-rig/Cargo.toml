@@ -1,0 +1,9 @@
+[package]
+name = "hello-rig"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.101"
+rig-core = { version = "0.30.0",features = ["all"]}
+tokio = { version = "1.49.0", features = ["full"] }
